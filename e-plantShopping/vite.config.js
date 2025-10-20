@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react()
   ],
-  base: '/e-plant/'
+  base: '/e-plantShopping'
 })

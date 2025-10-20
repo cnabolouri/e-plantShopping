@@ -8,7 +8,7 @@ import CartItems from './pages/CartItems'
 export default function App() {
     return (
         <div className="app">
-            <Navbar />
+            {/* <Navbar /> */}
             <Landing />
             <Routes>
                 <Route index element={<Landing />} />

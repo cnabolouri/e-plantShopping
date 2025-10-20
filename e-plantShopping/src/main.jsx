@@ -10,7 +10,7 @@ import './index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <Provider store={store}>
-            <BrowserRouter basename="/e-plant">
+            <BrowserRouter>
                 <App />
             </BrowserRouter>
         </Provider>
