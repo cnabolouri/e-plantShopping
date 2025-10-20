@@ -10,9 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-<<<<<<< HEAD
   base: '/e-plantShopping/'
-=======
-  base: '/e-plantShopping/e-plantShopping/'
->>>>>>> eeea45dcda75258e29025c50060506d417654fc9
 })
