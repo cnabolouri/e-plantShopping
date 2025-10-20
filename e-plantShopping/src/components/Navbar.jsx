@@ -8,10 +8,10 @@ export default function Navbar() {
     return (
         <header className="nav">
             <nav className="nav-inner">
-                <NavLink to="/e-plantShopping" className="brand">Paradise Nursery</NavLink>
+                <NavLink to="" className="brand">Paradise Nursery</NavLink>
                 <div className="links">
-                    <NavLink to="/e-plantShopping/plants">Plants</NavLink>
-                    <Link to="/e-plantShopping/cart" className="cart-link">
+                    <NavLink to="plants">Plants</NavLink>
+                    <Link to="cart" className="cart-link">
                         <span className="cart-icon">🛒</span>
                         <span className="cart-count">{count}</span>
                     </Link>
