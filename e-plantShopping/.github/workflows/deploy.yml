@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]   # change if your default branch is different
+    branches: [ main ]
 
 permissions:
   contents: read
@@ -24,8 +24,7 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
-      # 👇 SPA refresh fallback for /plants and /cart
-      - run: cp dist/index.html dist/404.html
+      - run: cp dist/index.html dist/404.html   # <-- SPA fallback
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
