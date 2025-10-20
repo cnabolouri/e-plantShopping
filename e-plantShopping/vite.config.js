@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/e-plantShopping/'
+  base: '/e-plantShopping/kit/'
 })
