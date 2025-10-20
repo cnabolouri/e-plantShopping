@@ -37,3 +37,6 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+      - run: npm run build
+      - run: cp dist/index.html dist/404.html
+

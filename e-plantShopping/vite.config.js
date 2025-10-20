@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: '/e-plantShopping/eplant/'
+  base: '/e-plantShopping/'
 })
