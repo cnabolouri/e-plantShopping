@@ -10,7 +10,7 @@ return (
 <div className="app">
 <Navbar />
 <Routes>
-<Route path="/e-plantShopping" element={<Landing />} />
+<Route path="/" element={<Landing />} />
 <Route path="/plants" element={<ProductList />} />
 <Route path="/cart" element={<CartItems />} />
 </Routes>
