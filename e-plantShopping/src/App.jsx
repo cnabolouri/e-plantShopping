@@ -10,9 +10,9 @@ export default function App() {
         <div className="app">
             <Navbar />
             <Routes>
-                <Route index element={<Landing />} />
+                {/* <Route index element={<Landing />} /> */}
                 {/* <Route path="" element={<Landing />} /> */}
-                <Route path="*" element={<Landing />} />
+                <Route path="" element={<Landing />} />
                 <Route path="plants" element={<ProductList />} />
                 <Route path="cart" element={<CartItems />} />
             </Routes>
